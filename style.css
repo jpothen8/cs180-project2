@@ -108,7 +108,9 @@ dialog p { font:12px/1.5 var(--mono); margin-bottom:0; }
  :root { --paper:white; --ink:black; --muted:#444; --soft:#f5f5f5; }
  body { font-size:10pt; } .wrap { max-width:none; padding:0; } nav,.controls,.skip,dialog { display:none; }
  .masthead { padding-top:0; } h1 { font-size:40pt; } main section { padding-top:26px; }
- .section-heading { break-after:avoid; } figure,.flow,table { break-inside:avoid; }
+ .section-heading,h2,h3,h4,summary,.params { break-after:avoid; }
+ figure,.flow,.formula,table { break-inside:avoid; }
+ .matrix { break-inside:avoid; } .matrix img { max-height:130px; }
  .grid img { max-height:220px; } .hero img { height:180px; }
  .print-only { display:grid; } .alpha-live { display:none; } a { text-decoration:none; }
  details pre { white-space:pre-wrap; background:#f4f4f4; color:black; font-size:8pt; }
